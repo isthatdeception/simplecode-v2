@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+p {
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+}
+
+button {
+  cursor: pointer;
+}
+
+.add-to-cart-button {
+  background-color: rgb(255, 216, 20);
+  color: #111;
+  border: 1px solid #a88734;
+  height: 42px;
+  width: 150px;
+  border-radius: 21px;
+}
+
+.add-to-cart-button:hover {
+  background-color: #e7b82c;
+}
+
+.buy-now-button {
+  background-color: rgb(255, 216, 20);
+  color: #111;
+  border: 1px solid #a88734;
+  height: 42px;
+  width: 150px;
+  border-radius: 21px;
+}
+
+.buy-now-button:hover {
+  background-color: #e7b82c;
+}
