@@ -1,0 +1,194 @@
+/* CSS Reset*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  margin-left: 4px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-left: 12px;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+/* 
+  Button Styles 
+*/
+button {
+  cursor: pointer;
+}
+
+/* uber-button */
+.uber-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 13px 17px;
+  transition: background-color 0.15s ease;
+}
+
+.uber-button:hover {
+  background-color: #333;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.uber-button:active {
+  opacity: 0.7;
+  transform: scale(0.95);
+}
+
+.uber-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Amazon button */
+.amazon-button {
+  background-color: #f0c14b;
+  color: #111;
+  border: 1px solid #a88734;
+  padding: 13px 17px;
+  height: 42px;
+  width: 150px;
+  border-radius: 21px;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.amazon-button:hover {
+  background-color: #ddb347;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.amazon-button:active {
+  opacity: 0.7;
+  transform: scale(0.95);
+}
+
+.amazon-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Github button */
+.github-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 13px 17px;
+  height: 42px;
+  width: 150px;
+  border-radius: 8px;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.github-button:hover {
+  background-color: rgba(0, 128, 0, 0.441);
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.github-button:active {
+  opacity: 0.7;
+  transform: scale(0.95);
+}
+
+/* Bootstrap Button */
+.bootstrap-get-started-button {
+  background-color: #624099;
+  color: white;
+  border: none;
+  padding: 13px 17px;
+  height: 39px;
+  width: 100px;
+  border-radius: 3px;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.bootstrap-get-started-button:hover {
+  background-color: #7b5fbb;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.bootstrap-get-started-button:active {
+  opacity: 0.7;
+  transform: scale(0.95);
+}
+
+.bootstrap-download-button {
+  background-color: white;
+  color: #624099;
+  border: 1px solid #624099;
+  padding: 13px 17px;
+  height: 39px;
+  width: 100px;
+  border-radius: 3px;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.bootstrap-download-button:hover {
+  background-color: #393939;
+  color: white;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.bootstrap-download-button:active {
+  opacity: 0.7;
+  transform: scale(0.95);
+}
+
+/* Linkedin Button */
+.linkedin-apply-button {
+  background-color: #0077b5;
+  color: white;
+  border: none;
+  padding: 4px 7px;
+  height: 39px;
+  width: 190px;
+  border-radius: 19px;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.linkedin-apply-button:hover {
+  background-color: #005582;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.linkedin-apply-button:active {
+  opacity: 0.7;
+  transform: scale(0.95);
+}
+
+.linkedin-save-button {
+  background-color: white;
+  color: #0077b5;
+  border: 1px solid #0077b5;
+  padding: 4px 7px;
+  height: 39px;
+  width: 190px;
+  border-radius: 19px;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.linkedin-save-button:hover {
+  background-color: #333;
+  color: white;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.linkedin-save-button:active {
+  opacity: 0.7;
+  transform: scale(0.95);
+}
