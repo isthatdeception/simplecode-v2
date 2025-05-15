@@ -1,1 +1,1 @@
-This is just basic test excerices i'm doing to make my fundamentals more clear.
+This is just basic test exercises I'm doing, to make my fundamentals more clear.
