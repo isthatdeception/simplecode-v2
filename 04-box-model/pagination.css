@@ -19,6 +19,18 @@ a {
   margin: 4px 2px;
 }
 
+.back-button:hover {
+  background-color: #005757; /* whatever color */
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.back-button:active {
+  background-color: #005757; /* whatever color */
+  box-shadow: inset 4px 4px 5px rgba(0, 0, 0, 0.5);
+  transform: translateY(
+    3px
+  ); /* use of translateY which makes it bounce up and down */
+}
 .search-results {
   padding-top: 8px;
   padding-bottom: 8px;
@@ -34,4 +46,14 @@ a {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
+}
+
+.next-button:hover {
+  background-color: #4dd1d1; /* whatever color */
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+.next-button:active {
+  background-color: #4dd1d1; /* whatever color */
+  box-shadow: inset 4px 4px 5px rgba(0, 0, 0, 0.5);
+  transform: scale(0.95); /* subtle and found best */
 }
