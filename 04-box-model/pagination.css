@@ -17,6 +17,8 @@ a {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
+  transform: box-shadow 0.15s ease,
+    background-color 0.15s ease opacity 0.15s ease;
 }
 
 .back-button:hover {
@@ -26,7 +28,7 @@ a {
 
 .back-button:active {
   background-color: #005757; /* whatever color */
-  box-shadow: inset 4px 4px 5px rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
   transform: translateY(
     3px
   ); /* use of translateY which makes it bounce up and down */
@@ -46,6 +48,8 @@ a {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
+  transition: box-shadow 0.15s ease,
+    background-color 0.15s ease opacity 0.15s ease;
 }
 
 .next-button:hover {
@@ -54,6 +58,6 @@ a {
 }
 .next-button:active {
   background-color: #4dd1d1; /* whatever color */
-  box-shadow: inset 4px 4px 5px rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
   transform: scale(0.95); /* subtle and found best */
 }
