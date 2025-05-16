@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+.back-button {
+  background-color: #038383; /* whatever color */
+  border: none;
+  color: white;
+  padding: 6px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transform: box-shadow 0.15s ease,
+    background-color 0.15s ease opacity 0.15s ease;
+}
+
+.back-button:hover {
+  background-color: #005757; /* whatever color */
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.back-button:active {
+  background-color: #005757; /* whatever color */
+  opacity: 0.8;
+  transform: translateY(
+    3px
+  ); /* use of translateY which makes it bounce up and down */
+}
+.search-results {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.next-button {
+  background-color: #7ae8e8; /* whatever color */
+  border: none;
+  color: white;
+  padding: 6px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: box-shadow 0.15s ease,
+    background-color 0.15s ease opacity 0.15s ease;
+}
+
+.next-button:hover {
+  background-color: #4dd1d1; /* whatever color */
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+.next-button:active {
+  background-color: #4dd1d1; /* whatever color */
+  opacity: 0.8;
+  transform: scale(0.95); /* subtle and found best */
+}
