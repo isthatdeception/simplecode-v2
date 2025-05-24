@@ -13,3 +13,13 @@ body {
 }
 
 /* Excercise */
+h1 {
+  font-size: 2rem;
+}
+
+.cat-face-image {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border: 1px solid blue; /* centered in the square */
+}
