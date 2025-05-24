@@ -1,0 +1,93 @@
+/* CSS Reset */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Base styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  text-align: center;
+}
+
+/* Excercise */
+.announcement-heading {
+  font-size: 0.7rem;
+  font-weight: normal;
+  color: red;
+  margin-left: 20px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+
+.sub-heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #111;
+  margin-left: 20px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.main-heading {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: black;
+  margin-left: 20px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: grey;
+  margin-left: 20px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+/* .buy-button {
+  font-size: 1.3rem;
+  font-weight: normal;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-left: auto;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-right: auto;
+} */
+
+.buy {
+  font-size: 1.3rem;
+  font-weight: normal;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-left: auto;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
