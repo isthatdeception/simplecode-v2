@@ -1,0 +1,113 @@
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* uber button */
+
+.uber-button {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 38px;
+  width: 100px;
+}
+
+.uber-button:hover {
+  background-color: #333;
+}
+
+/* amazon button  */
+
+.amazon-button {
+  background-color: #f0c14b;
+  color: #111;
+  border: 1px solid #a88734;
+  height: 42px;
+  width: 150px;
+  border-radius: 19px;
+}
+
+.amazon-button:hover {
+  background-color: #e7b82c;
+}
+
+/* github button */
+.github-button {
+  background-color: #29a24d;
+  color: white;
+  border: none;
+  height: 38px;
+  width: 100px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.github-button:hover {
+  background-color: #333;
+}
+
+/* Bootstrap button*/
+.bootstrap-get-started-button {
+  background-color: #6b4ea1;
+  color: white;
+  border: none;
+  height: 38px;
+  width: 100px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.bootstrap-get-started-button:hover {
+  background-color: #6b4ea1d0;
+}
+
+.bootstrap-download-button {
+  color: #6b4ea1;
+  background-color: #fff;
+  border: 1px solid #6b4ea1;
+  height: 38px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.bootstrap-download-button:hover {
+  color: #fff;
+  background-color: #6b4ea1d0;
+}
+
+/* Linkedin-button */
+.linkedin-apply-button {
+  background-color: #0077b5;
+  color: white;
+  border: none;
+  height: 38px;
+  width: 180px;
+  border-radius: 19px;
+  margin-right: 5px;
+}
+
+.linkedin-apply-button:hover {
+  background-color: #005582;
+}
+
+.linkedin-save-button {
+  background-color: #fff;
+  color: #0077b5;
+  border: 1px solid #0077b5;
+  height: 38px;
+  width: 100px;
+  border-radius: 19px;
+}
+
+.linkedin-save-button:hover {
+  background-color: #005582;
+  color: #fff;
+}
