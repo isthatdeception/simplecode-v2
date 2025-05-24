@@ -1,0 +1,39 @@
+/* CSS reset */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Base styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Excercise */
+h1.main-heading {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+p.content {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+  margin: 0 1rem;
+  text-align: center;
+}
+
+span.underline {
+  text-decoration: underline;
+  color: #007bff;
+  cursor: pointer;
+}
