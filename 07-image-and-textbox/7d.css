@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styles */
+.container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  height: 100vh;
+  position: relative;
+}
+input.text-box {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 50%;
+  display: block;
+  margin: 10px auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
